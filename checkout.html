@@ -17,27 +17,27 @@
         </div><!-- fim .jumbtron-->
 
         <div class="container">
-        <div class="card mb-3">
-            <div class="card-header">
-                <h2>Sua compra</h2>
-            </div> <!-- fim .card-header-->
-                <div class="card-body">
-                    <img src="img/produtos/foto2-verde.png" alt="Camiseta Ecko Caveira no cor verde" class="img-thumbnail mb-3">
-                    <dl>
-                        <dt>Produto</dt>
-                        <dd>Camiseta Ecko Caveira</dd>
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h2>Sua compra</h2>
+                </div> <!-- fim .card-header-->
+                    <div class="card-body">
+                        <img src="img/produtos/foto2-verde.png" alt="Camiseta Ecko Caveira no cor verde" class="img-thumbnail mb-3">
+                        <dl>
+                            <dt>Produto</dt>
+                            <dd>Camiseta Ecko Caveira</dd>
 
-                        <dt>Cor</dt>
-                        <dd>Verde</dd>
+                            <dt>Cor</dt>
+                            <dd>Verde</dd>
 
-                        <dt>Tamanho</dt>
-                        <dd>42</dd>
+                            <dt>Tamanho</dt>
+                            <dd>42</dd>
 
-                        <dt>Preço</dt>
-                        <dd>R$ 48,95</dd>
-                    </dl>
-                </div><!-- fim .card-body-->
-            </div><!-- fim .card-->
+                            <dt>Preço</dt>
+                            <dd>R$ 48,95</dd>
+                        </dl>
+                    </div><!-- fim .card-body-->
+                </div><!-- fim .card-->
         <form>
             <fieldset>
                 <legend>Dados pessoais</legend>     
@@ -49,7 +49,15 @@
 
                 <div class=""form-group>
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                        </div>
+                    </div>
+
+                    <!-- <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com"> -->
                 </div>
 
                 <div class=""form-group>
@@ -67,8 +75,21 @@
                 <legend>Cartão de crédito</legend>
 
                 <div class="form-group">
-                    <label for="numero-cartao">Número - CVV</label>
-                    <input type="text" class="form-control"  id="numero-cartao" name="numero-cartao">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="bandeira-cartao">Bandeira</label>
+                        </div>
+                        <select class="custom-select" id="bandeira-cartao">
+                            <option disabled selected>Selecione uma opção...</option>
+                            <option value="master">MasterCard</option>
+                            <option value="visa">VISA</option>
+                            <option value="amex">American Express</option>
+                        </select>
+                        
+                    </div>
+                    
+                    <!-- <label for="numero-cartao">Número - CVV</label>
+                    <input type="text" class="form-control"  id="numero-cartao" name="numero-cartao"> -->
                 </div>
 
                 <div class="form-group">
@@ -86,7 +107,7 @@
                     <input type="month"  class="form-control" id="validade-cartao" name="validade-cartao">
                 </div>
             </fieldset>
-            <button type="submit" class="btn btn-primary mb-3">
+            <button type="submit" class="btn-lg btn btn-primary mb-3">
                 <span class="oi oi-thumb-up"></span>Confirmar Pedido</button>
         </form>
     </div> <!-- fim .container-->
