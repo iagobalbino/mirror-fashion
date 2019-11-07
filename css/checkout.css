@@ -1,0 +1,3 @@
+.form-control:invalid {
+	border: 1px solid #cc0000;
+}
