@@ -9,6 +9,28 @@
         <title>Checkout Mirror Fashion</title>
      </head>
      <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Mirror Fashion</a>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre.html">Sobre</a>                    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perguntas frequentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entre em contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="jumbotrom jumbotrom-fluid">
             <div class="container">
                 <h1 class="display-4">Ótima escolha!</h1>
@@ -18,12 +40,12 @@
         </div><!-- fim .jumbtron-->
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xl-3">
                         <div class="card mb-3">
                             <div class="card-header">
                                 <h2>Sua compra</h2>
                             <div class="card-body">
-                               <img src="img/produtos/foto2-verde.png" alt="Camiseta Ecko Caveira no cor verde" class="img-thumbnail mb-3">
+                               <img src="img/produtos/foto2-verde.png" alt="Camiseta Ecko Caveira no cor verde" class="img-thumbnail mb-3 d-some-block">
                                     <dl>
                                         <dt>Produto</dt>
                                         <dd>Camiseta Ecko Caveira</dd>
@@ -41,7 +63,7 @@
                     </div><!-- fim .card-header -->
                 </div><!-- fim .card .mb-3 -->
             </div><!-- fim .col-md-4 -->
-                <form class="col-md-8">
+                <form class="col-md-8 col-xl-9">
                     <div class="row">
                         <fieldset class="col-lg-6">
                             <legend>Dados pessoais</legend>   
@@ -100,9 +122,12 @@
                                 <button type="submit" class="btn-lg btn btn-primary mb-3">
                                     <span class="oi oi-thumb-up"></span>Confirmar Pedido
                                 </button>
-                            </div><!-- fim .col-lg-6 -->
-                        </div><!-- fim .row -->
-                </form>
+                            </form><!-- fim. col-md-8 -->
+                        </div><!-- fim .col-lg-6 -->
+                    </div><!-- fim .row -->
         </div> <!-- fim .container-->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
     </body>
 </html>
