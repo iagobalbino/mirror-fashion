@@ -83,6 +83,35 @@ header {
 	margin-top: 10px;
 }
 
+/* Implementar depois
+	9.18 Exercícios opcionais: Banner rotativo
+	Exercício 3
+*/
+/* .destaque {
+	position: relative;
+}*/
+
+.pause,
+.play {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top:15px;
+}
+
+.pause {
+	border-left: 10px solid #900;
+	border-right: 10px solid #900;
+	height: 30px;
+	width: 5px;
+}
+
+.play {
+	border-left: 25px solid #900;
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+}
+
 .painel {
 	margin: 10px 0;
 	padding: 10px;
@@ -234,6 +263,9 @@ footer .container {
 	border-top-right-radius: 5px;
 }
 
+.painel li:nth-child(n+7) {
+	display: none;
+}
 
 @media (max-width: 939px) {
 	.container {
