@@ -87,9 +87,9 @@ header {
 	9.18 Exercícios opcionais: Banner rotativo
 	Exercício 3
 */
-/* .destaque {
+.destaque {
 	position: relative;
-}*/
+}
 
 .pause,
 .play {
@@ -265,6 +265,10 @@ footer .container {
 
 .painel li:nth-child(n+7) {
 	display: none;
+}
+
+.painel-aberto li:nth-child(n+7) {
+	display: inline-block;
 }
 
 @media (max-width: 939px) {
