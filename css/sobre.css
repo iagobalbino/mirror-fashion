@@ -177,3 +177,15 @@ h1 + p {
 :not(p) + p::first-line {
 	font-variant: small-caps;
 }
+
+.iframe {
+	width: 560px; 
+	height: 315;
+	margin: 0 auto;
+}
+
+.iframe-mapa {
+	width: 400px;
+	height: 300px;
+	margin: auto 100px auto 500px;
+}
