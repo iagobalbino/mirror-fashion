@@ -8,10 +8,12 @@ No projeto foram criados 4 páginas (home, sobre, produto e checkout), de forma 
 
 ## Home
 
-![](gifs\mirror-fashion\gifs\mirror-fashion-home.gif)
+![](gifs\mirror-fashion-home.gif)
+
+## Produto e checkout
+
+![](gifs\mirror-fashion-produto-e-checkout.gif)
 
 ## Sobre
 
-## Produto
-
-## Checkout
+![](gifs\mirror-fashion-sobre.gif)
