@@ -8,7 +8,7 @@ function trocaBanner() {
 
 var timer = setInterval(trocaBanner, 4000);
 
-var controle = document.querySlector('.pause');
+var controle = document.querySelector('.pause');
 
 
 /* Botão play/pause */
