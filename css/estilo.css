@@ -138,7 +138,7 @@ header {
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
-	transition: 0.7s ease-ou;t
+	transition: 0.7s ease-out;
 }
 
 .painel li:hover {
@@ -332,7 +332,30 @@ footer .container {
 	border-top-color: #393939;
 }
 
-@media (max-width: 939px) {
+@media (max-width: 320px) {
+	.container {
+		width: 96%;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+	header h1 img {
+		max-width: 50%;
+	}
+
+	.sacola {
+		display: none;
+	}
+
+	.menu-opcoes {
+		position: static;
+		text-align: center;
+	}
+}
+
+/* @media (max-width: 939px) {
 	.container {
 		width: 96%;
 	}
@@ -373,9 +396,9 @@ footer .container {
 	.painel img {
 		width: 100%;
 	}
-}
+} */
 
-@media (min-width: 720px){
+/* @media (min-width: 720px) {
 	header h1 {
 		text-align: left;
 	}
@@ -405,9 +428,9 @@ footer .container {
 	.banner-destaque img {
 		width: 69%;
 	}
-}
+} */
 
-@media (min-width: 480px){
+/* @media (min-width: 480px) {	
 	header h1{
 		margin: 5px 0;
 	}
@@ -431,4 +454,5 @@ footer .container {
 		left: 0;
 	}
 
-}
+} */
+
