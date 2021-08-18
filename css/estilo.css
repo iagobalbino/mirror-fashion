@@ -309,7 +309,7 @@ footer .container {
 .painel button::after {
 	/* elemento vazio */
 	content: '';
-	display block;
+	display: block;
 	height: 0;
 	width:0;
 
@@ -332,7 +332,8 @@ footer .container {
 	border-top-color: #393939;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 939px) {
+
 	.container {
 		width: 96%;
 	}
@@ -352,6 +353,78 @@ footer .container {
 	.menu-opcoes {
 		position: static;
 		text-align: center;
+	}
+
+	.menu-opcoes ul li {
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.busca,
+	.menu-departamentos,
+	.banner-destaque img {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.painel {
+		width: auto;
+	}
+
+	.painel li {
+		width: 30%;
+	}
+
+	.painel img {
+		width: 100%;
+	}
+
+	@media (min-width: 480px) {
+		header h1 {
+			margin: 5px 0;
+		}
+
+		.menu-departamentos {
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+		}
+
+		.menu-departamentos nav > ul {
+			column-count: 2;
+		}
+	}
+
+	@media (min-width: 720px) {
+		header h1 {
+			text-align: left;
+		}
+
+		.menu-opcoes {
+			position: absolute;
+		}
+
+		.sacola {
+			display: block;
+		}
+
+		.painel li {
+			width: 15%;
+		}
+
+		.busca,
+		.menu-departamentos {
+			margin-right: 1%;
+			width: 30%;
+		}
+
+		.menu-departamentos nav > ul {
+			column-count: 1;
+		}
+
+		.banner-destaque img {
+			width: 69%;
+		}
+
 	}
 }
 
