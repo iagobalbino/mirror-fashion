@@ -6,6 +6,11 @@ Este projeto foi retirado da apostila WD-43 da Caelum, a apostila propõe ao alu
 
 No projeto foram criados 4 páginas (home, sobre, produto e checkout), de forma geral foi um bom início para mim e indico para qualquer pessoa que tenha interesse na área, pois os exemplos e as explicações são bem detalhadas.
 
+## Tecnologias utilizadas
+- HTML
+- CSS
+- Javascript
+
 ## Home
 
 ![Mirror Fahion home](https://github.com/iagobalbino/html-projeto/blob/master/gifs/mirror-fashion-home.gif)
